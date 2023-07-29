@@ -89,3 +89,77 @@ li {
 .email {
  color: #778da9;
 }
+
+
+@media (min-width: 300px) {
+ .main-title {
+  font-size: 72px;
+  text-align: center;
+ }
+ .main-subtitle {
+  font-size: 21px;
+  margin-top: 0;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+ }
+ .main-title-common {
+  font-size: 21px;
+  text-align: center;
+ }
+ .new-word {
+  margin-left: 5%;
+ }
+}
+
+@media (min-width: 576px) { 
+ .main-title {
+  text-align: start;
+ }
+ .main-subtitle {
+  font-size: 26px;
+  text-align: start;
+ }
+ .main-title-common {
+  font-size: 23px;
+ }
+ .new-word {
+  margin-left: 40px;
+ }
+ }
+
+@media (min-width: 768px) { 
+ .main-subtitle {
+  font-size: 27px;
+ }
+ .main-content {
+  margin-left: 30px;
+ }
+ }
+
+@media (min-width: 992px) { 
+ .main-subtitle {
+  font-size: 25px;
+  margin-top: -65px;
+  flex-direction: row-reverse;
+ }
+ .main-content {
+  margin-left: 30px;
+ }
+ }
+
+ @media (min-width: 1200px) { 
+ .main-title {
+  font-size: 80px;
+ }
+ .main-subtitle {
+  font-size: 30px;
+  margin-top: -80px;
+ }
+ .main-content {
+  margin-left: 30px;
+ }
+ .main-title-common {
+  font-size: 25px;
+ }
+ }
