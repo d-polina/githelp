@@ -25,6 +25,7 @@
     <div class="useful-commands">
      <p class="main-title-common">Полезные команды:
       <ul>
+       <li><span class="commands">git init</span> - позволяет создать репозиторий</li>
        <li><span class="commands">git clone</span> - позволяет стянуть репозиторий себе на комп</li>
        <li><span class="commands">git pull</span> - позволяет стянуть все изменения, произошедшие удаленно, себе на комп</li>
        <li><span class="commands">git checkout</span> - позволяет переключаться между ветками (пример <span class="example">git checout dev</span>, где <span class="example">dev</span> - название ветки)</li>
@@ -33,6 +34,12 @@
        <li><span class="commands">git status</span> - позволяет посмотреть в каком статусе находится проект</li>
        <li><span class="commands">git push</span> - позволяет отправить изменения с локального компа на удаленный сервер</li>
        <li><span class="commands">pull request</span> - позволяет добавлять изменения из ветки, где разрабатывалась новая фича, в ветку master</li>
+       <li><span class="commands">rm</span> - позволяет удалить файл, но после удаления нужно использовать <span class="example">git add</span> и <span class="example">git commit</span> (пример <span class="example">rm fileForRemove</span>)</li>
+       <li><span class="commands">git restore</span> - позволяет восстановить удаленный файл (пример <span class="example">git restore deletedFile</span>)</li>
+       <li><span class="commands">git rm</span> - позволяет удалить файл, но после удаления нужно использовать только <span class="example">git сommit</span> (равносильно <span class="example">rm</span> + <span class="example">git add</span>, то есть команда объединяет в себе удаление и подготовку к коммиту)</li>
+       <li><span class="commands">git diff</span> - позволяет увидеть разницу между изменением, что было и что стало, но до того, как использовалась команда <span class="example">git add</span></li>
+       <li><span class="commands">git diff --staged</span> - позволяет увидеть разницу между изменением, что было и что стало, но после того, как использовалась команда <span class="example">git add</span>, то есть после того, как было подготовлено к коммиту</li>
+       <li><span class="commands">git mv</span> - позволяет переименовать файл (пример <span class="example">git mv oldFile newFile</span>)</li>
       </ul>
      </p>
     </div>
