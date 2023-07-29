@@ -66,6 +66,10 @@ li {
  margin-top: 10px;
 }
 
+.example {
+ font-family: m-medium;
+}
+
 .new-word {
  font-size: 20px;
  color: #0077b6;
@@ -110,6 +114,9 @@ li {
  .new-word {
   margin-left: 5%;
  }
+ .feedback {
+  font-size: 15px;
+ }
 }
 
 @media (min-width: 576px) { 
@@ -119,21 +126,23 @@ li {
  .main-subtitle {
   font-size: 26px;
   text-align: start;
+  justify-content: left;
  }
  .main-title-common {
   font-size: 23px;
+  text-align: left;
  }
  .new-word {
   margin-left: 40px;
+ }
+ .main-content {
+  margin-left: 30px;
  }
  }
 
 @media (min-width: 768px) { 
  .main-subtitle {
   font-size: 27px;
- }
- .main-content {
-  margin-left: 30px;
  }
  }
 
@@ -142,6 +151,7 @@ li {
   font-size: 25px;
   margin-top: -65px;
   flex-direction: row-reverse;
+  justify-content: right;
  }
  .main-content {
   margin-left: 30px;
