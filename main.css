@@ -27,7 +27,7 @@ body {
 
 .main {
  margin-top: 50px;
- margin-left: 50px;
+ /* margin-left: 50px; */
  margin-bottom: 60px;
 }
 
@@ -41,9 +41,11 @@ body {
 
 .main-subtitle {
  font-size: 30px;
- position: absolute;
+ /* position: absolute; */
+ display: flex;
+ flex-direction: row-reverse;
  right: 50px;
- margin-top: -120px;
+ margin-top: -80px;
  color: #778da9;
  
 }
@@ -67,6 +69,7 @@ li {
 .new-word {
  font-size: 20px;
  color: #0077b6;
+ margin-left: 40px;
 }
 
 .features {
