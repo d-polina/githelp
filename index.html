@@ -40,6 +40,16 @@
        <li><span class="commands">git diff</span> - позволяет увидеть разницу между изменением, что было и что стало, но до того, как использовалась команда <span class="example">git add</span></li>
        <li><span class="commands">git diff --staged</span> - позволяет увидеть разницу между изменением, что было и что стало, но после того, как использовалась команда <span class="example">git add</span>, то есть после того, как было подготовлено к коммиту</li>
        <li><span class="commands">git mv</span> - позволяет переименовать файл (пример <span class="example">git mv oldFile newFile</span>)</li>
+       <li><span class="commands">git log</span> - показывает список всех выполненных коммитов, отсортированных по дате добавления</li>
+       <li><span class="commands">git log -p</span> - показывает коммиты с полными дифами, изменениями</li>
+       <li><span class="commands">git show</span> - показывает диф между этим комитом и предыдущем (пример <span class="example">git show 5120bea3e5528c29f8d1da43731cbe895892eb6d</span> либо <span class="example">git show 5120bea</span> – идентификатор-хеш, первые семь цифр уникальны, можно их использовать)</li>
+       <li><span class="commands">git blame</span> - выводит файл и рядом со строчкой показывает, кто ее менял и в каком комите (пример <span class="example">git blame _путь_до_файла_</span> )</li>
+       <li><span class="commands">git grep</span> - находит совпадение с указанной строкой во всех файлах проекта (пример <span class="example">git grep _слово_</span> )</li>
+       <li><span class="commands">git grep -i</span> - находит совпадение без учета регистра (пример <span class="example">git grep -i _слово_</span> )</li>
+       <li><span class="commands">mkdir</span> - создает пустую директорию (пример <span class="example">mkdir _название_файла_</span> )</li>
+       <li><span class="commands">touch</span> - открывает файл (пример <span class="example">touch _название_файла_ </span> )</li>
+       <li><span class="commands">git clean -fd</span> - удаляет -f – forced, -d – directory</li>
+        
       </ul>
      </p>
     </div>
